@@ -1,0 +1,14 @@
+name: MidnightAntiAlt
+version: 1.0
+main: com.midnightsmp.midnightantialt.MidnightAntiAlt
+api-version: '1.21'
+description: Anti-Alt account manager for Midnight Lifesteal SMP
+commands:
+  antialt:
+    description: Manage Anti-Alt settings and check linked player accounts
+    usage: /antialt [check <player>|reload]
+    permission: midnightantialt.admin
+permissions:
+  midnightantialt.admin:
+    description: Allows checking player alts and reloading config
+    default: op
